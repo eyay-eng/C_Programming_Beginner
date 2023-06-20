@@ -2,7 +2,7 @@
 *
 *   Written By: Aaron Hale
 *   06/19/23
-*   Practice working char arryas
+*   Practice working char arrays
 *
 *
 */
