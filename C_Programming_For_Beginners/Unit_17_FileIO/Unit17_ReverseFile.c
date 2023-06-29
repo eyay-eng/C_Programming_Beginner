@@ -27,7 +27,7 @@ int main(){
         return(-1);
     }
 
-    //Move to end of file
+    //Move to end of file and get pointer position
     fseek(pFile,0, SEEK_END);
     int pos = ftell(pFile);
 
@@ -49,6 +49,8 @@ int main(){
     remove(fName);
     rename(tempName,fName);
 
+    pFile = NULL;
+    tempFile = NULL;
 
 
     return(0);
